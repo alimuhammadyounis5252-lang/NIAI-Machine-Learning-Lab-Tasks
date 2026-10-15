@@ -1,0 +1,15 @@
+# Week 1 - Task 13: Nested If Statement
+# Student Name: Ali Muhammad Younis (886)
+
+i = 10
+if (i == 10):
+    # First if statement
+    if (i < 15):
+        print("i is smaller than 15")
+    # Nested - if statement
+    # Will only be executed if statement above
+    # it is true
+    if (i < 12):
+        print("i is smaller than 12 too")
+    else:
+        print("i is greater than 15")
